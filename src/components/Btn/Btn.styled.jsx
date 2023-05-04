@@ -18,8 +18,8 @@ export const BtnElement = styled.button`
     transform: scale(1.1);
     background-color: ${props =>
       props.status === 'add'
-        ? 'rgba(0, 128, 75, 0.7)'
-        : 'rgba(202, 30, 30, 0.6)'};
+        ? 'rgba(20, 0, 255, 0.6)'
+        : 'rgba(0, 0, 255, 0.9)'};
     box-shadow: 0px 14px 6px 4px #cab1b98c;
   }
   &:active {
